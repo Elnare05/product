@@ -151,7 +151,6 @@ const CartComponent = ({
     return Object.keys(errors).length === 0;
   }, [paymentInfo]);
 
-  // Form event handlers
   const handleAddressChange = (e) => {
     const { name, value } = e.target;
     setAddressInfo(prev => ({ ...prev, [name]: value }));
