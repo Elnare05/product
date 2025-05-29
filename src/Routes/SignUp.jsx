@@ -153,6 +153,7 @@ function SignUp() {
 
           Already have an account? <a href="/login">Login</a>
         </p>
+
       </div>
     </div>
   );

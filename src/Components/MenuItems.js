@@ -14,10 +14,15 @@ export const MenuItems = [
         url: "/contact",
         cName: "nav-links"
     },
+    // {
+    //     title: "Login",
+    //     url: "/login",
+    //     cName: "nav-links-mobile"
+    // },
     {
-        title: "Login",
-        url: "/login",
-        cName: "nav-links-mobile"
+        title: "SingUp",
+        url: "/signup",
+         cName: "nav-links-mobile"
     },
     
 ]
