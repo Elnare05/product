@@ -7,7 +7,6 @@ import About from './Routes/About';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import PageContainer from './container/PageContainer';
 import SignUp from './Routes/SignUp';
-import Login from './Routes/Login';
 const App = () => {
   return (
     <div>
@@ -17,7 +16,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/login" element={<Login />} />
+       
       </Routes>
  
     </div>
